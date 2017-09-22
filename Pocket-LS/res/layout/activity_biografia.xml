@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background"
+        android:orientation="vertical" >
+
+        <!--
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_biografia_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-0962119360794951/3367817811" />
+        -->
+        
+        <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/ads_Banner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/bio1_txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ads_Banner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="TITULO"
+            android:textColor="@color/corFaixas"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/bio1_linha"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/bio1_txt_titulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="#6E6E6E" />
+
+        <ImageView
+            android:id="@+id/bio1_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bio1_linha"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/luan_bio1" />
+
+        <TextView
+            android:id="@+id/bio1_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bio1_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/bio1_texto"
+            android:textColor="@color/letraEscura" />
+    </RelativeLayout>
+
+</ScrollView>

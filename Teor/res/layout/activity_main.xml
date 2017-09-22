@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_darkblue"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/caixa_geral"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusableInTouchMode="true" >
+
+        <RelativeLayout
+            android:id="@+id/caixa_titulo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:focusableInTouchMode="true" >
+
+            <ImageView
+                android:id="@+id/titulo_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/titulo_txt" />
+
+            <ImageButton
+                android:id="@+id/language_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/config" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/barra_subtitulo"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_below="@+id/caixa_titulo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#BDBDBD" />
+
+        <TextView
+            android:id="@+id/subtitulo_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_titulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/seus_dados"
+            android:textColor="@color/texto_cinza"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:id="@+id/caixa_sexo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/barra_subtitulo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/box_gray_item"
+            android:focusableInTouchMode="true" >
+
+            <TextView
+                android:id="@+id/sexo_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/sexo"
+                android:textColor="@color/label"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/man_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignRight="@+id/sexo_txt"
+                android:layout_below="@+id/sexo_txt"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/man_icon" />
+
+            <ImageButton
+                android:id="@+id/female_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/sexo_txt"
+                android:layout_below="@+id/sexo_txt"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/female_icon_dis" />
+
+            <TextView
+                android:id="@+id/filete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/female_btn"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/caixa_pesoidade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_sexo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/box_gray_item"
+            android:focusableInTouchMode="true" >
+
+            <TextView
+                android:id="@+id/peso_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/peso"
+                android:textColor="@color/label" />
+
+            <TextView
+                android:id="@+id/idade_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/peso_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/idade"
+                android:textColor="@color/label" />
+
+            <EditText
+                android:id="@+id/peso_campo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/peso_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/peso_txt"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/label" />
+
+            <EditText
+                android:id="@+id/idade_campo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/idade_txt"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/idade_txt"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/label" />
+
+            <TextView
+                android:id="@+id/filete1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idade_txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/caixa_perfil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_pesoidade"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/box_gray_item"
+            android:focusableInTouchMode="true" >
+
+            <TextView
+                android:id="@+id/perfil_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/perfil"
+                android:textColor="@color/label" />
+
+            <Spinner
+                android:id="@+id/perfil_campo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/perfil_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:entries="@array/perfil_arrays"
+                android:prompt="@string/perfil_prompt" />
+
+            <TextView
+                android:id="@+id/filete2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/perfil_campo"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:visibility="invisible" />
+        </RelativeLayout>
+        
+        <com.startapp.android.publish.banner.banner3d.Banner3D
+			android:id="@+id/startApp3DBanner_tela1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_below="@+id/caixa_perfil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"/>
+
+        <RelativeLayout
+            android:id="@+id/caixa_detalhe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startApp3DBanner_tela1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/box_gray_item"
+            android:focusableInTouchMode="true" >
+
+            <TextView
+                android:id="@+id/horas_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/horas"
+                android:textColor="@color/label" />
+
+            <Spinner
+                android:id="@+id/horas_campo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horas_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:entries="@array/horas_arrays"
+                android:prompt="@string/horas_prompt" />
+            
+            <TextView
+                android:id="@+id/detalhe_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/horas_campo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/detalhe"
+                android:textColor="@color/label" />
+
+            <RadioGroup
+                android:id="@+id/detalhe_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detalhe_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/comendo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/comida"
+                    android:textColor="@color/label" />
+
+                <RadioButton
+                    android:id="@+id/jejum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"            
+                    android:text="@string/jejum"
+                    android:textColor="@color/label" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/filete3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detalhe_group"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/caixa_btnproximo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_detalhe"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:focusableInTouchMode="true" >
+
+            <Button
+                android:id="@+id/proximo_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableRight="@drawable/next"
+                android:text="@string/proximo_btn"
+                android:textColor="@color/texto_cinza"
+                android:background="#9ed300" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

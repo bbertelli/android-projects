@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_fiqueligado_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-0962119360794951/3367817811" />
+        -->
+
+        <ImageView
+            android:id="@+id/fl_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_megaphone" />
+
+        <TextView
+            android:id="@+id/fl_txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_icon"
+            android:layout_centerHorizontal="true"
+            android:text="Atenção!"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/fl_linha"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/fl_txt_titulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/fl_txt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_linha"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Em breve, o aplicativo estará disponível \ntambém para outros principais artistas de destaque!" />
+        
+        <ImageView
+            android:id="@+id/fl_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_txt_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_conte" />
+
+        <TextView
+            android:id="@+id/fl_txt_titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_icon2"
+            android:layout_centerHorizontal="true"
+            android:text="Conte aos outros!"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/fl_linha2"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/fl_txt_titulo2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/fl_txt_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_linha2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Compartilhe o App nas redes sociais\ne ajude outros fãs." />
+
+        <ImageButton
+            android:id="@+id/fl_btn_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fl_linha2"
+            android:layout_below="@+id/fl_txt_info2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/h_face" />
+
+        <ImageButton
+            android:id="@+id/fl_btn_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_txt_info2"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/fl_btn_facebook"
+            android:src="@drawable/h_twi" />
+
+        <ImageButton
+            android:id="@+id/fl_btn_gplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_txt_info2"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/fl_btn_twitter"
+            android:src="@drawable/h_gplus" />
+
+        <ImageButton
+            android:id="@+id/fl_btn_whats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_txt_info2"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/fl_btn_gplus"
+            android:src="@drawable/h_whats" />
+
+        <TextView
+            android:id="@+id/home_filete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_txt_info"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</ScrollView>

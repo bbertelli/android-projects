@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_darkblue"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/pref2_caixa_geral"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/pref2_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="@string/pref_titulo"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/titulo" />
+        
+        <RelativeLayout
+            android:id="@+id/caixa2_language"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pref2_titulo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/box_gray_item"
+            android:focusableInTouchMode="true" >
+        
+        <RadioGroup
+                android:id="@+id/pref2_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/portugues_br2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/pref_ptbr"
+                    android:textColor="@color/label" />
+
+                <RadioButton
+                    android:id="@+id/ingles2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"            
+                    android:text="@string/pref_us"
+                    android:textColor="@color/label" />
+            </RadioGroup>
+            </RelativeLayout>
+            
+        <RelativeLayout
+            android:id="@+id/pref2_caixa_btnproximo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa2_language"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:focusableInTouchMode="true" >
+
+            <Button
+                android:id="@+id/pref2_ok_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableRight="@drawable/next"
+                android:text="OK"
+                android:textColor="@color/texto_cinza"
+                android:background="#9ed300" />
+            
+            <TextView
+            android:id="@+id/pref2_versao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/pref2_ok_btn"
+            android:text="Version"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="@color/titulo" />
+            
+            <ImageView
+            android:id="@+id/pref2_traco"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/pref2_ok_btn"
+            android:background="@color/titulo" />
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+</ScrollView>

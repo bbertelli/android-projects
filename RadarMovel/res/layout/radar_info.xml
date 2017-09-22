@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/l_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#0B3861"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Dia: " />
+    
+    <TextView
+        android:id="@+id/l_sentido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_dia"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#0B3861"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Sentido: " />
+    
+    <TextView
+        android:id="@+id/l_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/hora"
+        android:layout_marginTop="4dp"
+        android:textColor="#0B3861"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Período: " />
+    
+    <TextView
+        android:id="@+id/l_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_sentido"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="8dp"
+        android:textColor="#0B3861"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Local: " />
+    
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textColor="#0B3861" />
+
+    <TextView
+        android:id="@+id/local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_sentido"
+        android:layout_toRightOf="@+id/l_local"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:textColor="#0B3861" />
+
+    <TextView
+        android:id="@+id/sentido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/l_sentido"
+        android:layout_below="@+id/l_dia"
+        android:textSize="16sp"
+        android:textColor="#0B3861" />
+
+    <TextView
+        android:id="@+id/n_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/dia"
+        android:textSize="16sp"
+        android:textColor="#0B3861" />
+
+    <TextView
+        android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/l_dia"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textColor="#0B3861" />
+
+</RelativeLayout>

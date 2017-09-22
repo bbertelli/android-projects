@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_darkblue"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/caixa_geral_tela3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusableInTouchMode="true" >
+
+        <RelativeLayout
+            android:id="@+id/caixa_titulo_tela3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true" >
+            
+            <ImageView
+                android:id="@+id/barra_subtitulo_tela3"
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:layout_alignParentBottom="true"
+                android:background="#BDBDBD" />
+            
+            <TextView
+                android:id="@+id/subtitulo_txt_tela3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/resultado_btn"
+                android:textSize="12sp"
+                android:textColor="@color/texto_cinza" />
+            </RelativeLayout>
+        
+        <com.startapp.android.publish.banner.banner3d.Banner3D
+			android:id="@+id/startApp3DBanner_tela3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_below="@+id/caixa_titulo_tela3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"/>
+        
+        <RelativeLayout
+            android:id="@+id/caixa_carimbo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startApp3DBanner_tela3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:focusableInTouchMode="true" >
+
+            <ImageView
+                android:id="@+id/carimbo"
+                android:layout_width="330dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/carimbo_feliz" />
+        
+       </RelativeLayout>
+       
+        <RelativeLayout
+            android:id="@+id/caixa_teor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_carimbo"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:background="@color/titulo"
+            android:focusableInTouchMode="true" >
+            
+            <TextView
+                android:id="@+id/label_teor_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/resultado_teor"
+                android:textColor="@color/texto_cinza" />
+            
+            <TextView
+                android:id="@+id/teor_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/label_teor_txt"
+                android:textStyle="bold"
+                android:text="1.0"
+                android:textColor="@color/texto_vermelho"
+                android:textSize="22sp" />
+            
+            </RelativeLayout>
+       
+        <RelativeLayout
+            android:id="@+id/caixa_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_teor"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#F5F6CE"
+            android:focusableInTouchMode="true" >
+            
+            <TextView
+                android:id="@+id/status_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginRight="5dp"
+            	android:textStyle="bold"
+                android:text="@string/resultado_estado_label"
+                android:textColor="@color/texto_cinza"
+                android:textSize="16sp" />
+            
+            <TextView
+                android:id="@+id/status_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginRight="5dp"
+            	android:layout_toRightOf="@+id/status_titulo"
+                android:text="Aqui vai o estado..."
+                android:textColor="@color/texto_cinza"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/efeito_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+            	android:layout_marginRight="5dp"
+            	android:layout_marginTop="3dp"
+            	android:layout_below="@+id/status_txt"
+            	android:textStyle="bold"
+                android:text="@string/resultado_efeito_label"
+                android:textColor="@color/texto_cinza"
+                android:textSize="16sp" />
+            
+            <TextView
+                android:id="@+id/efeito_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:layout_marginTop="3dp"
+            	android:layout_marginRight="5dp"
+            	android:layout_toRightOf="@+id/efeito_titulo"
+            	android:layout_below="@+id/status_txt"
+            	android:layout_alignTop="@+id/efeito_titulo"
+                android:text="Aqui vai os efeitos..."
+                android:textColor="@color/texto_cinza"
+                android:textSize="16sp" />
+ 
+            <TextView
+                android:id="@+id/filete1_tela3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/efeito_txt"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:visibility="invisible" />
+        
+       </RelativeLayout>
+       
+        <RelativeLayout
+            android:id="@+id/caixa_tempo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_status"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:background="@color/titulo"
+            android:focusableInTouchMode="true" >
+            
+            <TextView
+                android:id="@+id/label_tempo_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/resultado_tempo"
+                android:textColor="@color/texto_cinza" />
+            
+            <TextView
+                android:id="@+id/tempo_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/label_tempo_txt"
+                android:textStyle="bold"
+                android:text="2 horas"
+                android:textColor="@color/texto_verde"
+                android:textSize="22sp" />
+            
+            </RelativeLayout>
+       
+         <RelativeLayout
+            android:id="@+id/caixa_facebook_tela3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_tempo"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:focusableInTouchMode="true" >
+            
+             <RelativeLayout
+            android:id="@+id/caixa_titulo_share"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#99CC00"
+            android:focusableInTouchMode="true" >
+             <TextView
+                android:id="@+id/label_share_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/resultado_share_label"
+                android:textColor="#0B3B17"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            </RelativeLayout>
+
+        <Button
+            android:id="@+id/facebook_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/caixa_titulo_share"
+            android:drawableLeft="@drawable/c_facebook"
+            android:text=" Facebook"
+            android:textColor="@color/titulo" />
+        
+        <Button
+            android:id="@+id/whatsapp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/caixa_titulo_share"
+            android:drawableLeft="@drawable/whatsapp"
+            android:text=" WhatsApp"
+            android:textColor="@color/titulo" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:id="@+id/caixa_lei"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caixa_facebook_tela3"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#F5F6CE"
+            android:focusableInTouchMode="true" >    
+            
+            <TextView
+                android:id="@+id/lei_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="5dp"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginRight="5dp"
+            	android:textStyle="bold"
+                android:text="@string/resultado_lei_label"
+                android:textColor="@color/texto_vermelho"
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/lei_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginRight="5dp"
+            	android:layout_toRightOf="@+id/lei_titulo"
+                android:text="@string/lei_txt"
+                android:textColor="@color/texto_vermelho"
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/filete2_tela3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lei_txt"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:visibility="invisible" />
+        
+       </RelativeLayout>
+        
+    </RelativeLayout>
+
+</ScrollView>

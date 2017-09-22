@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="textIcons">#FFFFFF</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+    <color name="facebookColor">#3b5998</color>
+    <color name="White20Black">#CDCDCD</color> <!-- White with 20% black -->
+    <color name="White10Black">#E6E6E6</color> <!-- White with 10% black -->
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Who Drank More?!</string>
+    <string name="titulo_app">Who Drank More?!</string>
+    <string name="link_app">https://play.google.com/store/apps/details?id=com.smb.teor</string>
+    <string name="seus_dados">Your Profile</string>
+    <string name="sexo">Gender</string>
+    <string name="altura">Height</string>
+    <string name="peso">Weight (Kg)</string>
+    <string name="idade">Age            </string>
+    <string name="perfil">Profile</string>
+    <string name="outros">Others</string>
+    <string name="tipo_bebida">Choose a Drink</string>
+    <string name="tipo_qtd">Choose Unit</string>
+    <string name="quantidade">Amount</string>
+    <string name="horas">I\'m drinking:</string>
+    <string name="pref_titulo">Select your language:</string>
+    <string name="pref_ptbr">Portuguese (BR)</string>
+    <string name="pref_us">English (US)</string> 
+    <string name="proximo_btn">Next</string> 
+    <string name="lista_bebidas">List of Drinks</string>
+    <string name="add_btn">Add</string>
+    <string name="lista_bebidas_vazia">     -:     The list is EMPTY     :-\n     Click the Add button!     </string>
+    <string name="resultado_btn">Result</string>
+    <string name="resultado_teor">Alcoholic Strength</string>
+    <string name="resultado_estado_label">Status: </string>
+    <string name="resultado_efeito_label">Effect: </string>
+    <string name="resultado_lei_label">Law: </string>
+    <string name="resultado_tempo">Recovery Time</string>
+    <string name="resultado_share_label">Tell for your Friends!</string>
+   
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="app_id">1409096856013503</string>
+    <string name="exception">Exception: %1$s</string>
+ 
+    
+    <string name="lei_txt">Check the laws of your Country/State that determines the limit of blood alcohol content.</string>
+    
+    <!-- Radio Button -->
+    <string name="detalhe">I\'m&#8230;</string>
+    <string name="comida">Eating</string>
+    <string name="jejum">Unfed</string>
+    
+    <!-- Listas de dados para os Spinners -->
+    <string name="perfil_prompt">What\'s your profile?</string>
+ 
+    <string-array name="perfil_arrays">
+        <item>Select an option&#8230;</item>
+        <item>Skinny</item>
+        <item>Normal</item>
+        <item>Chubby</item>
+        <item>Fat</item>
+        <item>Beefy</item>
+    </string-array>
+    
+    <string name="horas_prompt">I\'m drinking:</string>
+ 
+    <string-array name="horas_arrays">
+        <item>Select an option&#8230;</item>
+        <item>Less than 1 hour</item>
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+        <item>6 hours</item>
+        <item>7 hours</item>
+      	<item>8 hours</item>
+        <item>9 hours</item>
+        <item>10 hours</item>
+        <item>11 hours</item>
+        <item>12 hours</item>
+        <item>13 hours</item>
+        <item>14 hours</item>
+        <item>15 hours</item>
+        <item>16 hours</item>
+        <item>17 hours</item>
+        <item>18 hours</item>
+        <item>19 hours</item>
+        <item>20 hours</item>
+        <item>21 hours</item>
+        <item>22 hours</item>
+        <item>23 hours</item>
+        <item>24 hours</item>
+    </string-array>
+        
+    <string name="tipo_bebida_prompt">What did you drink?</string>
+ 
+    <string-array name="tipo_bebida_arrays">
+        <item>Select an option&#8230;</item>
+        <item>Beer [~ 3,5 ºGL]</item>
+        <item>Premium Beer [~ 5,7 ºGL]</item>
+        <item>Wine</item>
+        <item>Champagne</item>
+        <item>Whiskey</item>
+        <item>Cachaça</item>
+        <item>Brandy</item>
+      	<item>Vodka</item>
+        <item>Tequila</item>
+    </string-array>
+    
+    <string name="bebida_1">Beer</string>
+    <string name="bebida_2">Premium Beer</string>
+    <string name="bebida_3">Wine</string>
+    <string name="bebida_4">Champagne</string>
+    <string name="bebida_5">Whiskey</string>
+    <string name="bebida_6">Cachaça</string>
+    <string name="bebida_7">Brandy</string>
+    <string name="bebida_8">Vodka</string>
+    <string name="bebida_9">Tequila</string>
+    
+    <string name="tipo_qtd_prompt">You drank in&#8230;</string>
+ 
+    <string-array name="tipo_qtd_arrays">
+        <item>Select an option&#8230;</item>
+        <item>Cup(s) [~ 200 ml]</item>
+        <item>Can(s) [~ 355 ml]</item>
+        <item>Shot(s) [~ 100 ml]</item>
+        <item>ml</item>
+        <item>fl.oz.</item>
+    </string-array>
+    
+    <color name="label">#0B2161</color>
+    <color name="titulo">#FFFFFF</color>
+    <color name="texto_vermelho">#CC0000</color>
+    <color name="texto_cinza">#2E2E2E</color>
+    <color name="texto_verde">#088A08</color>
+    
+    <string name="t1_msg_idioma">Want to change the current language?</string>
+    <string name="t1_btn_ok_idioma">Yes</string>
+    <string name="t1_btn_no_idioma">No</string>
+    <string name="t1_msg_atencao">ATTENTION!</string>
+    <string name="t1_msg_peso">Enter your Weight!</string>
+    <string name="t1_msg_idade">Enter your Age!</string>
+    <string name="t1_msg_toast_perfilidade">Enter a valid value!</string>
+    
+    <string name="t2_msg_quantidade">Enter the quantity and click the Add button!</string>
+    <string name="t2_msg_lista">The list is EMPTY. Click the Add button!</string>
+    
+    <string name="t3_msg_leimenor">Attention! Is prohibited consumption of alcoholic beverages by persons under the age as established by the laws your state/country.</string>
+    <string name="t3_sta_0">Are you dry! Not yet consumed nothing&#8230;</string>
+    <string name="t3_sta_1">You\'re just starting to get excited&#8230;</string>
+    <string name="t3_sta_2">It seems you are getting quite friendly. It was everything you wanted&#8230; relax!</string>
+    <string name="t3_sta_3">It\'s today&#8230; it\'s all really cool!</string>
+    <string name="t3_sta_4">Forest Gump – Many stories to tell.</string>
+    <string name="t3_sta_5">Everyone is your best friend. That girl/boy doesn\'t look quite so ugly!</string>
+    <string name="t3_sta_6">Talk a blue streak or quiet corner of the room.</string>
+    <string name="t3_sta_7">You are powerful! You\'re the man&#8230;</string>
+    <string name="t3_sta_8">Nobody wants to be your friend. The world has ended!</string>
+    <string name="t3_sta_9">Sounds like you learned to speak another language&#8230; Can not walk straight. In a little while you will give Total Loss!</string>
+    <string name="t3_sta_10">I\'ll see him in the hospital. Now only insulin in vein&#8230; You gave Total Loss!</string>
+    
+    <string name="t3_efe_0">Nothing.</string>
+    <string name="t3_efe_1">Sensation of muscle relaxation. Sometimes little dizziness in people less resistant to the effects of alcohol.</string>
+    <string name="t3_efe_2">Feeling of relaxation and tranquility.</string>
+    <string name="t3_efe_3">Feeling of euphoria.</string>
+    <string name="t3_efe_4">Feeling of euphoria and affected motor skills.</string>
+    <string name="t3_efe_5">Depression, lack and motor skills affected.</string>
+    <string name="t3_efe_6">Depression, lack and motor skills quite heavily.</string>
+    <string name="t3_efe_7">Depression, aggressive tendency and motor skills quite heavily.</string>
+    <string name="t3_efe_8">Strong depression and badly affected motor skills, pressure drop, sleep.</string>
+    <string name="t3_efe_9">Double vision, very sleepy, low pressure, retching.</string>
+    <string name="t3_efe_10">Alcoholic Coma.</string>
+    
+    <string name="t3_wt_0">-: ZEROED :- \n I\'m Dry! Not even drink anything&#8230; \n </string>
+    <string name="t3_wt_1">-: HAPPY :- \n I\'m Starting to cheer me up! \n </string>
+    <string name="t3_wt_2">-: NICE :- \nCool people! Now I just want to relax&#8230; \n </string>
+    <string name="t3_wt_3">-: FUNNY :- \nIt\'s today&#8230; it\'s all really cool! \n </string>
+    <string name="t3_wt_4">-: PRATER :- \nLike a Forest Gump! \n </string>
+    <string name="t3_wt_5">-: LOVELY :- \nYou know that I love so hard, right?!  \n </string>
+    <string name="t3_wt_6">-: BORING :- \nWho was it that took my cup again?! \n </string>
+    <string name="t3_wt_7">-: BRAVE :- \nI\'m the man!! \n </string>
+    <string name="t3_wt_8">-: LOW :- \nWhy does everything happen to me?? \n </string>
+    <string name="t3_wt_9">-: DRUNK :- \nIt\'sss all Riiiight&#8230; I\'m getting crazy!! \n </string>
+    <string name="t3_wt_10">-: TOTAL LOSS :- \nIt\'s over&#8230;I gave Total Loss&#8230; zzzZZZZzz \n </string>
+    
+    <string name="t3_link_0">https://lh5.googleusercontent.com/-pRXc-vWbOoE/UxoSTBrGGqI/AAAAAAAAAuc/Dwinzruamnc/s312/carimbo_zerado-en.png</string>
+    <string name="t3_link_1">https://lh3.googleusercontent.com/-ESCSKMsf_RQ/UxoSRiPCTCI/AAAAAAAAAuI/ICeFNRe0_Kc/s312/carimbo_feliz-en.png</string>
+    <string name="t3_link_2">https://lh6.googleusercontent.com/-DM06XrNOzKI/UxoSSGXbzdI/AAAAAAAAAuM/VRAwfnzrgjo/s312/carimbo_simpatico-en.png</string>
+    <string name="t3_link_3">https://lh6.googleusercontent.com/-jOBaIrcXYSs/UxoSTBt7zzI/AAAAAAAAAuY/NTdcOoYRFlg/s312/carimbo_divertido-en.png</string>
+    <string name="t3_link_4">https://lh4.googleusercontent.com/-erYcyIP1nv4/UxoSTFDlCgI/AAAAAAAAAuk/DjLVpT1t9Oc/s312/carimbo_tagarela-en.png</string>
+    <string name="t3_link_5">https://lh5.googleusercontent.com/-Hf6dAjBgV68/UxoSPvLUfEI/AAAAAAAAAtc/_FMvPDfU04w/s312/carimbo_amoroso-en.png</string>
+    <string name="t3_link_6">https://lh4.googleusercontent.com/-6915YJJ6GoM/UxoSPnIvmsI/AAAAAAAAAtY/00Dc46L4NfI/s312/carimbo_chato-en.png</string>
+    <string name="t3_link_7">https://lh3.googleusercontent.com/-X4keLL4iqwg/UxoSQqtax_I/AAAAAAAAAtw/UjPB97o0eWQ/s312/carimbo_corajoso-en.png</string>
+    <string name="t3_link_8">https://lh4.googleusercontent.com/-pUbGHxdWqHE/UxoSQjRjLJI/AAAAAAAAAt4/DEH78QQaSOI/s312/carimbo_deprimido-en.png</string>
+    <string name="t3_link_9">https://lh5.googleusercontent.com/-BwZLvombtjM/UxoSPubkXrI/AAAAAAAAAto/jKVFS5JBu3g/s312/carimbo_chapadao-en.png</string>
+    <string name="t3_link_10">https://lh5.googleusercontent.com/-8qnsLuGTyzw/UxoSRVjxJBI/AAAAAAAAAt8/kysJRlH9KJ0/s312/carimbo_deupt-en.png</string>
+    
+    <string name="t3_facebook"> Effect: </string>
+    <string name="t3_msg_facebook">Facebook is not installed on your device!</string>
+    <string name="t3_msg_whatsapp">Whatsapp is not installed on your device!</string>
+    <string name="t3_txt_whatsapp">Install App \"Who Drank More?!\"\nand check your result\n</string>
+    
+    <string name="t3_titulo_compartilhamento">Share on&#8230;</string>
+    
+    <string name="msg_combobox">Select an option</string>
+</resources>

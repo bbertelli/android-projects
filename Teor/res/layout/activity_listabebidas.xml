@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_darkblue"
+    tools:context=".ListViewActivity" >
+
+    <com.smb.teor.VerticalScrollview
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/caixa_geral_tela2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true" >
+
+            <RelativeLayout
+                android:id="@+id/caixa_titulo_tela2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true" >
+
+                <ImageView
+                    android:id="@+id/barra_subtitulo_tela2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#BDBDBD" />
+
+                <TextView
+                    android:id="@+id/subtitulo_txt_tela2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lista_bebidas"
+                    android:textColor="@color/texto_cinza"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <com.startapp.android.publish.banner.banner3d.Banner3D
+                android:id="@+id/startApp3DBanner_tela2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/caixa_titulo_tela2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp" />
+
+            <RelativeLayout
+                android:id="@+id/caixa_quantidade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/startApp3DBanner_tela2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box_gray"
+                android:focusableInTouchMode="true" >
+
+                <TextView
+                    android:id="@+id/tipobebida_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tipo_bebida"
+                    android:textColor="@color/label" />
+
+                <TextView
+                    android:id="@+id/tipoqtd_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tipobebida_campo"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tipo_qtd"
+                    android:textColor="@color/label" />
+
+                <TextView
+                    android:id="@+id/quantidade_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tipoqtd_campo"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/quantidade"
+                    android:textColor="@color/label" />
+
+                <Spinner
+                    android:id="@+id/tipobebida_campo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tipobebida_txt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:entries="@array/tipo_bebida_arrays"
+                    android:prompt="@string/tipo_bebida_prompt" />
+
+                <Spinner
+                    android:id="@+id/tipoqtd_campo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tipoqtd_txt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:entries="@array/tipo_qtd_arrays"
+                    android:prompt="@string/tipo_qtd_prompt" />
+
+                <EditText
+                    android:id="@+id/quantidade_campo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/quantidade_txt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:focusableInTouchMode="true"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/add_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/quantidade_campo"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableTop="@drawable/add"
+                    android:text="@string/add_btn"
+                    android:textColor="@color/label"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/filete1_tela2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/add_btn"
+                    android:layout_centerHorizontal="true"
+                    android:text=""
+                    android:visibility="invisible" />
+            </RelativeLayout>
+            
+            <Button
+                android:id="@+id/resultado_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/caixa_quantidade"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#9ed300"
+                android:drawableRight="@drawable/next"
+                android:text="@string/resultado_btn"
+                android:textColor="@color/texto_cinza" />
+
+            <ListView
+                android:id="@+id/lista_bebidas"
+                android:layout_width="fill_parent"
+                android:layout_height="220dp"
+                android:layout_below="@+id/resultado_btn"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                tools:listitem="list_item" />
+            
+            <TextView
+                android:id="@+id/lista_vazia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lista_bebidas"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/titulo"
+                android:text="@string/lista_bebidas_vazia"
+                android:visibility="gone" />
+        
+        </RelativeLayout>
+    </com.smb.teor.VerticalScrollview>
+
+</RelativeLayout>

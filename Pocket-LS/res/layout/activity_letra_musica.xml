@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/icone_favorito_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/nome_musica"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/fav_icon_off" />
+
+            <TextView
+                android:id="@+id/texto_favorito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/icone_favorito_off"
+                android:layout_marginRight="10dp"
+                android:text="Marcar favorita "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/letraEscura"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/nome_musica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/texto_favorito"
+                android:text="Vê Se Leva A Sério"
+                android:textColor="@color/tituloMaior"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/artista_musica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nome_musica"
+                android:layout_marginLeft="10dp"
+                android:text="@string/artista"
+                android:textColor="@color/subTitulo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!--
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_letramusica_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/artista_musica"
+        android:layout_marginTop="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-0962119360794951/3367817811" />
+            -->
+
+            <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/ads_Banner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@+id/artista_musica"
+        android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/letra_musica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ads_Banner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="letra"
+                android:textColor="@color/letraEscura"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tempo_musica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/letra_musica"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="03:30"
+                android:textColor="@color/letraEscura"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/compositor_musica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tempo_musica"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Nome Compositor"
+                android:textColor="@color/letraEscura"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

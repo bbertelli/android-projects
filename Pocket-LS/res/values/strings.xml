@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pocket - Luan Santana</string>
+    <string name="artista">Luan Santana</string>
+    <string name="cd1">O Gurizinho (2008)</string>
+    <string name="cd2">Tô De Cara (2009)</string>
+    <string name="cd3">Ao Vivo (2010)</string>
+    <string name="cd4">Ao Vivo no Rio (2011)</string>
+    <string name="cd5">Quando Chega A Noite (2012)</string>
+    <string name="cd6">O Nosso Tempo É Hoje (2013)</string>
+    <string name="cd7">Te Esperando (EP) (2013)</string>
+    <string name="cd8">As Melhores&#8230; Até Agora (2013)</string>
+    <string name="cd9">VideoClipes (2009 - 2013)</string>
+    <string name="cd10">Shows Completos (2010 - 2013)</string>
+    <string name="cd11">Músicas Cover (2010 - 2013)</string>
+    <string name="cd12">Duetos (2010 - 2013)</string>
+    <string name="cd13">Comerciais (2011 - 2013)</string>
+    <string name="cd14">Participações (2010 - 2013)</string>
+    <string name="cd15">Duetos (2014)</string>
+    <string name="cd16">Web Séries (2014 - 2015)</string>
+    
+    <string name="versao_app">V.2.7</string>
+    
+    <string name="bio_op1">Sobre o Luan</string>
+    <string name="bio_op2">A História</string>
+    <string name="bio_op3">Curiosidades</string>
+    <string name="bio_op4">Prêmios e Conquistas</string>
+    
+    <string name="vid_op1">VideoClipes</string>
+    <string name="vid_op2">Shows Completos</string>
+    <string name="vid_op3">Covers</string>
+    <string name="vid_op4">Duetos</string>
+    <string name="vid_op5">Comerciais</string>
+    <string name="vid_op6">Participações</string>
+    <string name="vid_op7">Web Séries</string>
+    
+    <string name="noticias_txt_download">Clique para carregar as notícias</string>
+    <string name="loading">Carregando, por favor aguarde&#8230;</string>
+    <string name="title">Titulo vai aqui!</string>
+    <string name="date">Data vai aqui!</string>
+    <string name="desc">Descricao vai aqui!</string>
+    <string name="linkLabel">Link para web: </string>
+    <string name="linkText">Link vai aqui!</string>
+    <string name="aviso_agenda">Fique atento!\nA agenda é sempre atualizada assim que novos shows são confirmados!
+        \nAs datas, locais e shows podem sofrer alterações sem aviso prévio.</string>
+    
+    <string name="msg_atencao">ATENÇÃO!</string>
+    <string name="msg_face">O Facebook não está instalado no seu dispositivo!</string>
+    <string name="msg_twitter">O Twitter não está instalado no seu dispositivo!</string>
+    <string name="msg_gplus">O Google+ não está instalado no seu dispositivo!</string>
+    <string name="msg_whats">O Whatsapp não está instalado no seu dispositivo!</string>
+    <string name="titulo_compartilhamento">Compartilhar em&#8230;</string>
+    <string name="txt_compartilhamento">O novo App do Luan Santana está muito TOP!</string>
+    <string name="txt_twitter">Baixe você também o novo App do Luan Santana para Android!\n</string>
+    <string name="link_app">\nhttps://play.google.com/store/apps/details?id=com.bertelli.pocketls</string>
+    <string name="link_img_app">https://lh6.ggpht.com/9N6P16oo62oQ1POFgXRh255fAahrNp4xcc-0yc4QTjEcO_ndwnL4i0CsPUdVgjadFWw=w300-rw</string>
+    
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="app_id">1462707223977875</string>
+    <string name="exception">Exception: %1$s</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Letras e Músicas</item>
+        <item>Videografia</item>
+        <item>Meus Favoritos</item>
+        <item>Notícias</item>
+        <item>Agenda de Shows</item>
+        <item>Biografia</item>
+        <item>Fique Ligado!</item>
+        <item>Sobre</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_letras_laranja</item>
+        <item>@drawable/ic_videografia_azulclaro</item>
+        <item>@drawable/ic_favoritos_amarelo</item>
+        <item>@drawable/ic_noticias_roxo</item>
+        <item>@drawable/ic_agenda_rosapink</item>
+        <item>@drawable/ic_biografia_verde</item>
+        <item>@drawable/ic_fl_verdeagua</item>
+        <item>@drawable/ic_sobre</item>
+        
+    </array>
+    
+    <string name="bio1_texto">
+        <![CDATA[
+<b>Luan Rafael Domingos Santana</b> é um cantor e compositor sertanejo. Luan nasceu em <u>13 de março de 1991</u> em <b>Campo Grande (Mato Grosso do Sul)</b>, onde viveu até seus oito anos de idade, durante esse período se mudou várias vezes incluindo as cidades de <b>Maringá, Manaus e Ponta Porã</b> por conta das transferências de trabalho de seu pai, que trabalhava em um banco. É filho de <b>Marizete Santana</b>, e <b>Amarildo Domingos</b>, e tem uma irmã mais nova <b>Bruna Santana</b>.
+<br /><br />Luan sempre gostou de tocar violão, e aprendeu ainda quando criança por incentivo de seu pai, que notou o talento do filho com o instrumento. Luan iniciou sua vida escolar na escola <b>N.S Auxiliadora</b> e também passou por várias escolas, conforme iria se mudando com a sua família por outras cidade. Luan costumava levar seu violão para escola e nas aulas vagas gostava de tocar violão, assim como no intervalo. Luan também costumava tocar na Igreja que frequentou durante meses na cidade de Maringá.
+<br /><br />Precisar quando a história do cantor Luan Santana começou é uma tarefa difícil. Já aos <b>3 anos</b> de idade na sua cidade natal, Campo Grande em Mato Grosso do Sul, ele chamava atenção de toda a família com os acordes afinados das músicas sertanejas que não parava de cantar. Clássicos como <b><i>“Muda de vida”</b></i>, <b><i>“Chico Mineiro”</b></i> e <b><i>“Cabocla Tereza”</b></i> eram interpretados por Luan, sem nenhum erro na letra. Percebendo o seu talento, o pai deu de presente um violão, para incentivar ainda mais o pequeno cantor. A partir desse momento as apresentações ganharam uma atração a mais, Luan cantava e “tentava” dedilhar algumas notas musicais no instrumento, que se tornou inseparável a partir daí.
+<br /><br />Com a insistência de amigos e familiares, aos <b>14 anos</b> Luan Santana faz uma festa onde realizou sua primeira gravação. O local escolhido foi a cidade de <b>Jaraguari</b> também em Mato Grosso do Sul, cidade natal dos seus pais e vizinha a Campo Grande. A principal música do repertório escolhido para aquele dia era <b><i>“Falando Serio”</b></i>, que até então, inédita e carro chefe nas suas apresentações.
+		]]>
+	</string>
+    
+    <string name="bio2_texto">
+        <![CDATA[
+        Atualmente o cantor tem <b>dois Discos de Platina pela ABPD</b>, pelos álbuns <b><i>Luan Santana – Ao Vivo</i></b> de formato CD e em DVD. O cantor já figurou entre os mais populares da internet logo a frente de cantores como <b><i>50 Cent</i></b>, <b><i>Coldplay</i></b>, <b><i>Britney Spears</i></b> e <b><i>Kesha</i></b> na <b>parada Social 50 da Billboard</b>. Atualmente o cantor tem um dos cachês mais caros do país, cobrando por apresentação cerca de <b>300 mil reais</b>. Seu primeiro álbum ao vivo foi um dos mais vendidos durante todo o ano de 2010, já vendeu mais de <b>400 mil cópias</b> e continua entre os mais vendidos do Brasil. 
+<br /><br />O álbum apresentava canções como <b><i>“Tô de Cara”</i></b>, <b><i>“Meteoro”</i></b>, <b><i>“Você não Sabe o que É Amor”</i></b>, <b><i>“Sinais”</i></b> , além de <b><i>“Chocolate”</i></b> e <b><i>“Vou Voar”</i></b>. Seu segundo álbum ao vivo foi gravado em <u>dezembro de 2010</u> na <b>HSBC Arena</b> no Rio de Janeiro e lançado em <u>abril de 2011</u>. O primeiro single foi <b><i>“Adrenalina”</i></b>, canção que atingiu a primeira posição na parada da <b>Billboard Brasil em 2010</b>. O segundo single foi <b><i>“Química do Amor”</i></b> com a participação de <b>Ivete Sangalo</b>. O terceiro single deste álbum foi <b><i>“Um Beijo”</i></b>, ainda em 2011 a música <b><i>“Amar Não é Pecado”</i></b> virou tema da novela <u>Morde e Assopra</u>, da <b>Rede Globo</b>.
+<br /><br />Seu primeiro álbum da carreira foi <b><i>Tô de Cara</i></b> que vendeu mais de <b>50 mil cópias</b> por todo o Brasil. A canção mais bem sucedida do álbum é <b><i>Meteoro</i></b> que foi a segunda do álbum, com a canção o cantor passou a ser um dos artistas mais executados das rádio do Brasil, de acordo com a Billboard Brasil. No ano seguinte, em 2009 Luan lança seu primeiro álbum ao vivo, gravado em Campo Grande no Mato Grosso do Sul com um enorme publico de <b>85 mil pessoas</b>. As canções que fizeram mais sucesso foi <b><i>Você Não Sabe o que É Amor</i></b>, <b><i>Sinais</i></b>, e <b><i>Chocolate</i></b>. Das 17 canções presentes no álbum, 7 fazem parte do seu álbum anterior. 
+<br /><br />Esse álbum foi certificado com <b>Disco de Platina pela ABPD</b> pelas <b>85 mil cópias</b> vendidas no Brasil. Em <u>10 de abril de 2011</u>, Santana lança seu quarto álbum e seu segundo ao vivo, intitulado de <b><i>Luan Santana Ao Vivo no Rio</i></b>. O show foi gravado na <b>HSBC Arena em 11 de setembro de 2010</b>. Mesmo um ano após o lançamento o álbum alcançou a vigésima primeira posição nos gráficos <u>Portuguese DVD Chart</u> e <u>Portuguese Álbuns Chart</u>. O álbum traz dezenove canções, sendo dezesseis inéditas e quatro canções parte de seu DVD. <b><i>Adrenalina</i></b>, <b><i>Um Beijo</i></b>, <b><i>As Lembranças Vão na Mala</i></b>, e <b><i>Amar Não é Pecado</i></b> são os destaques do álbum, Santana fez uma parceria com a cantora espanhola naturalizada mexicana, Belinda na música <b><i>“Meu Menino, Minha Menina”</i></b>.
+<br /><br /><u>Em fevereiro de 2012</u>, Luan estava em um estúdio finalizando o seu novo álbum, e por isso tinha dado uma pausa na sua agenda lotada de shows pelo Brasil. Em março, Luan Santana lança seu segundo álbum de estúdio intitulado de <b><i>Quando Chega a Noite</i></b> o álbum contou com canções que fizeram sucesso em várias partes do Mundo como <b><i>Você de Mim Não Sai</i></b>, <b><i>Nêga</i></b>, e <b><i>Incondicional</i></b>. Por ser o álbum mais recente de Luan, sem dúvida alguma é um dos mais comentados da carreira do cantor, que teve críticas positivas. Seu desempenho com as músicas foi tão grande, que Luan foi indicado ao <b>Grammy Latino 2012</b>. Além disso, o álbum foi o mais vendido de 2012, com mais <b>300 mil cópias</b>.
+<br /><br />Durante 2012 Santana fez mais de <b>200 shows</b> no Brasil inteiro, tendo o maior empenho para o mês de junho onde foi destaque ao lado de <b><i>Michel Teló</i></b> nas festas juninas. Santana teve o maior número de indicações na <b><u>18ª edição do Prêmio Multishow</u></b>. Em 2010 ele venceu como a revelação do ano. Em 2011 o cantor foi vencedor do prêmio <b>Melhores do Ano</b> realizado pelo programa <u>Domingão do Faustão</u> na categoria de <b>Melhor Cantor</b>, além de ser premiado também com a melhor música, <b>Meteoro</b>. No dia <u>24 de abril de 2013</u>, Santana ganhou ao lado de <b>Roberto Carlos</b> o prêmio de <b><u>Melhor Cantor</u></b>, realizado pelo <b>SBT</b>, o <b><u>Troféu Imprensa</u></b>.
+<br /><br />Hoje em dia, Luan Santana é citado como um dos maiores cantores de sertanejo universitário. As letras das músicas de Luan Santana são umas das <b>mais acessadas na internet</b>, quando jovem também teve sucesso nos vídeos do <b>Youtube</b>, com suas musicas amadoras que foram cantadas por ele em algumas apresentações não oficiais. Com o violão Luan passou a fazer muitos shows para família e amigos, e as vezes também tocava e cantava em festinhas e concursos de música. O reflexo do talento de Luan foi aparecendo nesses concursos, já que grande parte das vezes ele ganhava as competições que participava. Foi aí que começou o sucesso na carreira do cantor.
+<br /><br />No dia <u>07 de julho de 2013</u> Luan Santana gravou seu <b>terceiro DVD</b> na <b><u>Arena Maeda</u></b>, no <u>Interior de São Paulo</u>. A canção com maior sucesso no momento é <b><i>Te Esperando</i></b>, que foi o primeiro single do cantor a vazar pela internet. Logo em seguida foram mais dois, <b><i>Garotas Não Merecem Chorar</i></b>, e <b><i>Cabou Cabou</i></b>.
+<br /><br />Em <u>fevereiro de 2011</u> Luan Santana adquiriu uma mansão avaliada em cerca de <b>R$ 10 milhões de reais</b> em Campo Grande, capital do estado de Mato Grosso do Sul. Estima-se que a fortuna de Luan Santana seja de <b>40 milhões de reais</b>, nos últimos dois anos o cantor movimentou mais de <b>70 milhões de reais</b> com seus shows, venda de discos, publicidade e produtos licenciados em seu nome. Com mais de <b>200 shows contratados para 2011</b>, Luan movimentou mais de <b>90 milhões de reais</b>. Atualmente, o cantor faz cerca de 25 shows por mês e cobra <b>300 mil de cachê</b>.
+        ]]>
+    </string>    
+    
+    <string name="bio3_texto">
+        <![CDATA[
+        • Seu nome completo é: <b>Luan Rafael Domingos Santana</b>
+<br />• Luan nasceu de cesariana <u>por volta das 12:00</u> do dia <b>13/03 numa quarta-feira</b>.
+<br />• Seu pai se chama <b>Amarildo Aparecido de Santana</b> e sua mãe <b>Marizete Cristina Domingos Santana</b>
+<br />• Luan tem apenas uma irmã, que é <u>3 anos</u> mais nova que ele, sua irmã se chama <b>Bruna Domingos Santana</b>
+<br /><br />• <b>1,83cm</b> é a altura de Luan, calçando um <b>sapato número 39</b> e seu manequim é em <u>média 40</u>
+<br />• Luan sempre deixou claro que torce para o <b>Corinthians</b>.
+<br />• Sempre que pode Luan vai para o Pantanal <b>pescar</b>, que é um de seus hobbys e local favorito.
+<br />• Luan é fã declaro de <b>Zezé di Camargo e Luciano</b> e realizou seu sonho de cantar com os ídolos na gravação de seu 2° DVD no Rio.
+<br /><br />• Uma das comidas que o Luan mais curti e <b>‘frango com quiabo’</b>, mas adora também <b>‘creme de abacate’</b>, <b>‘bife acebolado’</b>, <b>‘melancia’</b>, <b>‘tereré’</b> e <b>‘coca-cola’</b> e não come de jeito nenhum <b>‘carne moída’</b>.
+<br />• Luan diz que uma de suas maiores virtudes é a <b>sinceridade</b> e confessa que sua grande mania é <u>mecher no cabelo</u>.
+<br />• Luan é <b>católico</b>, mas já cantou música <b>evangélica</b>, e demonstra <b><u>que não tem preconceito de religião</u></b>.
+<br />• Luan diz que uma mulher ideal tem que ter: <b><i>“A cabeça importa mais do que a beleza. Gosto de menina simpática, humilde, sincera e honesta.”</i></b>
+<br /><br />• Luan ama animais, e tem um cachorro poodle chamado <b>Puff</b> e um peixe betta chamado <b>Elvis</b>.
+<br />• Com apenas <b>três anos</b> de idade Luan ganhou de seu pai seu primeiro violão.
+<br />• A primeira música que aprendeu a tocar foi o clássico <b><i>“Muda de Vida”</i></b> da dupla <b>Zezé di Camargo e Luciano</b>.
+<br />• Desde pequeno Luan cantava em festa da familia e evento escolar, fazendo o maior sucesso
+<br /><br />• Na escola o Luan era <b>“pegadorzinho”</b> segundo ele as meninas corriam atrás dele. Afirmou o cantor em uma entrevista.
+<br />• Luan gravou um disco de forma independente aos 15 anos. Por achar que o trabalho ficou com pouca qualidade, acabou quebrando o CD. Mas um de seus amigos ficou com uma cópia e disponibilizou as músicas na WEB. Como não identificavam quem cantava, as canções ficaram conhecidas como sendo do <b>“Gurizinho de Jaraguari”</b>.
+<br />• Luan Santana foi o primeiro artista a cantar a música <b>“Falando Sério”</b> de <b>Elizandra Santos</b>.
+<br /><br />• Luan Santana <b>quase desistiu</b> de sua carreira, quando lançou seu disco e três de suas músicas que era single (<b>“Falando Serio”</b>, <b>“Sufoco”</b> e <b>“Faz De Conta”</b>) foi regravada pela dupla sertaneja <b>João Bosco e Vinicius</b> ofuscando o sucesso de Luan, ja que até então a dupla era bem mais conhecido que o garoto do interior.
+<br />• O destino bondoso com o pequeno garoto de sonhos grandes colocou <b>Sorocaba (Fernando e Sorocaba)</b> a sua frente que decidiu apoiá-lo em sua carreira, cedendo canções ao astro, foi ai que Luan apareceu com o tão aclamado <b>“Meteoro”</b>.
+<br />• Além de <b>“Meteoro”</b>, Sorocaba deu a Luan canções como: <b>“Tô de Cara”</b> e <b>“Você não sabe o que é amor”</b> além de outras.
+<br />• Com o grande sucesso de “Meteoro”, Luan grava seu primeiro disco como <b>“Luan Santana”</b> que é nominado <b>“Tô De Cara”</b>.
+<br /><br />• Com o contrato pela gravadora <b>Som Livre</b>, em <u>novembro de 2009</u> Luan lançou seu primeiro DVD, gravado no <b>Parque das Nações Indígenas</b>, em Campo Grande.
+<br />• O show contou com um público de <b>85 mil pessoas</b>. O DVD teve <b>100 mil cópias</b> vendidas em apenas <b>6 meses</b>.
+<br />• A Loja Luan Santana apareceu devido ao grande numero de fãs que pedia objetos que o cantor usava.
+<br />• <b>A primeira vez do Luan</b> não foi planejada, rolou de repente mais ele afirma que foi <b>‘bem legal’</b>.
+<br /><br />• Luan criou sua conta no twitter no dia 22 de Julho de 2009, com o user de <b>@luansantanaevc</b> hoje é apenas <b>@LuanSantana</b>
+<br />• Hoje ele tem uma das contas mais bombadas entre os artistas brasileiros no Twitter. Sua conta tem mais de <b>3 milhões de seguidores</b>.
+<br />• Ele é quem mais vende discos no Brasil e seus shows têm muita tecnologia.
+<br />• Luan acha que não tem jeito para ser ator, embora tenha feito participações em <b>Morde e Assopra</b>, <b>Malhação</b> e no programa humorístico <b>Casseta e Planeta</b>.
+<br /><br />• Sua música tem um toque pop, mas não esquece a essência do sertanejo.
+<br />• Luan pretende passar as músicas para outras línguas, como o <b>espanhol</b>, para talvez no futuro fazer shows no exterior.
+<br />• Um dos sonhos do Luan era se apresentar na <b>Festa do Peão de Barretos</b>, para realizar o sonho e a divulgação do rapaz, seus agentes e sua família se juntou e pagou cerca de <b>3.000 reais</b> para ele se apresentar em um dos palcos adjacentes da festa.
+<br />• No ano seguinte Luan foi convidado para tocar no <b>palco principal</b> da Festa do Peão de Barretos sendo o <b>artista principal da festa</b>.
+<br /><br />• Luan Santana foi eleito embaixador da <b>Festa do Peão Barretos de 2010</b>.
+<br />• Todo o dinheiro que o Luan ganha nas comprar de DVD e CD de sua linha é convertido em <u>doações para instituições de todo o Brasil</u>.
+<br />• Bondoso Luan Santana já <b>deu seu cachê (400 mil)</b> para as obras do <b>Hospital de Câncer de Barretos</b>.
+<br />• A inspiração para a música <b>“Chocolate”</b> veio de uma carta recebida por uma fã, na qual nas frases ela colocava bombons.
+<br /><br />• No ano de 2011 Luan fez seu primeiro show internacional no <b>Brazilian Day</b>. Que se tornou recorde de publico.
+<br />• Luan ganhou o título de cidadão honorário de Londrina (cidade hoje reside atualmente) no começo de 2012.
+<br />• Luan sonha em conhecer o mundo, e aproveita para conhecer ele em suas férias.
+<br />• Nas férias de 2010 Luan conheceu o <b>Caribe</b> e em 2011 <b>Cancun no México</b>.
+<br /><br />• Luan já cantou ao lado de Fernando e Sorocaba, Zezé di Camargo e Luciano, Ivete Sangalo, Xuxa, Paula Fernandes, Fiuk, Exaltassamba, Péricles, Belinda e Conrado e Aleksandro.
+<br />• Luan já esqueceu a letra de algumas de suas músicas, como: <b>“Você Não Sabe o Que é Amor” e “Amor distante/Inquilina de violeiro”</b>.
+<br />• Seu canal do <b>Youtube</b> conta com mais de <b>125.000.000 de exibições</b>
+<br />• Empresas que tem a marca vinculada à Luan Santana são: Luan Santana Shop, Pernambucas, Zitros, Norma, Dermiwil, ROMA-Prata, 9ine e Água de Cheiro.
+<br />• Em 6 anos de carreira, Luan Santana ja teve 4 ônibus.
+<br />• Em suas turnês Luan sempre grava um texto de abertura, no total já foram 3, incluído a mais recente da turnê <b>“Quando Chega A Noite”</b>
+<br /><br /><b>- Abertura da turnê: Meteoro e DVD Luan Santana Ao Vivo</b>
+<br /><i>No início, há quem te chame de sonhador, de louco. Há momentos difíceis que realmente derrubam e nos deixam de cara com tudo, mas você levanta, ergue a cabeça e a alegria te atinge com força feito um meteoro.
+O jogo do amor recomeça e a vida te pergunta: aqui é o seu lugar? São desafios e provas a cada dia e ter você do meu lado nesse dia tão especial é maravilhoso.
+Dizem que só quem sonha consegue alcançar, nós alcançamos e pode ter certeza, venha o que vier eu vou estar pra sempre com você!
+(Meteoro) (se for sonho) Dizem que só quem sonha consegue alcançar (eu preciso flutuar) nós alcançamos.</i>
+<br /><br /><b>- Abertura da turnê: Adrenalina e DVD Luan Santana Ao Vivo no Rio</b>
+<br /><i>Já viajei por todo universo, por todas as galáxias em busca de um sonho, de um motivo pra continuar lutando. Eu demorei, mas encontrei o que procurava! O seu olhar é o que me guia, a sua voz é o que me anima e eu espero que esse dia marque a sua vida, assim como você marcou a minha história.</i>
+<br /><br /><b>- Abertura da turnê: Quando Chega A Noite</b>
+<br /><i>O vento me trouxe até você, não foi nada fácil mas é preciso lutar para vencer.. a cada passo, a cada desafio eu me sentia mais forte. Porque o seu amor me conduzia e o seu sorriso me mostrava o caminho, vem traga seu brilho que faço chover estrela.. traga energia que eu transformo em calor, traga seu grito que te dou a canção. Melhores fãs do mundo a noite chegou e ela é toda nossa.</i>
+<br /><br />• Uma de suas primeiras apresentações da Turne <b>“Quando Chega a Noite”</b> Luan cantou Te Vivo acompanhado do piano.
+<br />• Luan já teve 5 de suas músicas em trilha sonora de novelas da Rede Globo, são elas: Meteoro (Malhação), Adrenalina (Araguaia), Amar Não É Pecado (Morde e Assopra) e Você de Mim Não Sai (Avenida Brasil).
+        ]]>
+    </string>
+
+<string name="bio4_texto">
+    <![CDATA[
+<b>Prêmio de Melhores do Ano 2009:</b><br />Revelação Musical - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>PMMB:</b> 2010<br />Revelação Musical - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Meus Prêmios Nick 2010:</b><br />Cantor do ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Meus Prêmios Nick 2010:</b><br />Música: Meteoro - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Prêmio Música Digital 2010:</b><br />Música: Meteoro - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Prêmio Música Digital 2010:</b><br />Música Mais Vendida: Meteoro - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Vagalume 2010:</b><br />Redes Sociais - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Vagalume 2010:</b><br />Blogs - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Vagalume 2010:</b><br />Site Oficial - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Grammy Latino 2010:</b><br />Melhor Álbum Sertanejo - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Capricho Awards 2010:</b><br />Cantor Nacional - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Capricho Awards 2010:</b><br />Música Nacional: Meteoro - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>PrêmioJovemBrasileiro 2010:</b><br />Música Nacional: Meteoro - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>PrêmioJovemBrasileiro 2010:</b><br />Cantor Nacional - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>PrêmioJovemBrasileiro 2010:</b><br />Revelação Musical - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Teen Awards Brasil 2010:</b><br />Cantor do Ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Teen Awards Brasil 2010:</b><br />Música Nacional: Meteoro - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Teen Awards Brasil 2010:</b><br />Revelação Musical - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Teen Awards Brasil 2010:</b><br />Álbum do Ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Teen Awards Brasil 2010:</b><br />DVD do ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Troféu TopTVZ:</b><br />Cantor Nacional - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Melhores do Ano 2010:</b><br />Música do Ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Melhores do Ano 2010:</b><br />Cantor do Ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Troféu Imprensa 2011:</b><br />Revelação do Ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Troféu Internet 2011:</b><br />Revelação do ano - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Troféu Internet 2011:</b><br />Melhor cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>PMMB 2011:</b><br />Melhor Show - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Meus Prêmios Nick 2011:</b><br />Música: Um Beijo - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Meus Prêmios Nick 2011:</b><br />Melhor cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Vagalume 2011:</b><br />Rede Social - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Vagalume 2011:</b><br />Site Oficial - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Extra:</b><br />Melhor Tema Musical - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Melhores do Ano 2011:</b><br />Melhor cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Grammy Latino 2012:</b><br />Melhor Álbum de Música Sertaneja - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Meus Prêmios Nick 2012:</b><br />Cantor Favorito - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Capricho Awards 2012:</b><br />Hit Sertanejo: Te Vivo - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Melhores do Ano 2012:</b><br />Melhor cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Multishow 2013:</b><br />Melhor Cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Multishow 2013:</b><br />Melhor Música - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Premio Multishow 2013:</b><br />Melhor Show - <font color="#B18904"><b>Indicado</b></font>
+<br /><br /><b>Melhores do Ano 2013:</b><br />Melhor cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Troféu Imprensa 2013:</b><br />Melhor Cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Premio Jovem Brasileiro 2013:</b><br />Melhor Cantor - <font color="green"><b>Venceu</b></font>
+<br /><br /><b>Capricho Awards 2013:</b><br />Cantor Nacional - <font color="green"><b>Venceu</b></font>
+]]>
+</string>       
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@color/background"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/fav_img_album"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cd2" />
+    </LinearLayout>
+
+    <!-- Número da música -->
+
+    <TextView
+        android:id="@+id/fav_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="1"
+        android:textColor="@color/numFaixas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Ponto -->
+
+    <TextView
+        android:id="@+id/fav_ponto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/fav_num"
+        android:text=". "
+        android:textColor="@color/numFaixas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Nome da música -->
+
+    <TextView
+        android:id="@+id/fav_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/fav_ponto"
+        android:text="Sinais"
+        android:textColor="@color/corFaixas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Nome do Álbum -->
+
+    <TextView
+        android:id="@+id/fav_album"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fav_nome"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/cd2"
+        android:textColor="@color/numFaixas"
+        android:textSize="16sp" />
+
+    <!-- Tempo da música -->
+
+    <TextView
+        android:id="@+id/fav_tempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fav_album"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="5:45"
+        android:textColor="@color/corFaixas"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Estrela de favorito -->
+
+    <ImageView
+        android:id="@+id/fav_icon"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fav_nome"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

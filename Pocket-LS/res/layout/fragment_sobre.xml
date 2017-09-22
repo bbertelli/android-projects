@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_sobre_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-0962119360794951/3367817811" />
+        -->
+
+        <ImageView
+            android:id="@+id/sobre_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_sobre" />
+
+        <TextView
+            android:id="@+id/sobre_txt_titulo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sobre_icon1"
+            android:layout_centerHorizontal="true"
+            android:text="Informações"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/sobre_linha1"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/sobre_txt_titulo1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/sobre_txt_info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sobre_linha1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="O aplicativo Pocket - Luan Santana,\ntem como objetivo unir e disponibilizar todas as \nprincipais informações e mídias do cantor, sejam \nMúsicas, Álbuns, Notícias, Vídeos, Agenda de Shows, Links dos canais oficiais, etc.\n\nTodas as informações aqui presentes, tem como fonte os canais oficiais do Cantor e são de direito dos seus respectivos autores." />
+
+        <TextView
+            android:id="@+id/sobre_txt_versao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sobre_txt_info1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Versão atual instalada"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sobre_txt_numversao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sobre_txt_versao"
+            android:layout_centerHorizontal="true"
+            android:text="@string/versao_app" />
+
+        <TextView
+            android:id="@+id/home_filete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sobre_txt_info2"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</ScrollView>

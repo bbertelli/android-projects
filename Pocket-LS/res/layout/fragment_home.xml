@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/home_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/logomarca" />
+
+        <ImageView
+            android:id="@+id/home_fotocapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/luan" />
+
+        <ImageView
+            android:id="@+id/home_linha1"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/home_fotocapa"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#6E6E6E" />
+
+        <ImageButton
+            android:id="@+id/home_btn_insta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_linha1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/home_btn_face"
+            android:src="@drawable/h_insta" />
+
+        <!-- Centro da Primeira linha -->
+
+        <ImageButton
+            android:id="@+id/home_btn_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_linha1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/h_face" />
+
+        <ImageButton
+            android:id="@+id/home_btn_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_linha1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/home_btn_face"
+            android:src="@drawable/h_you" />
+
+        <ImageButton
+            android:id="@+id/home_btn_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_btn_face"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/home_btn_gplus"
+            android:src="@drawable/h_twi" />
+
+        <!-- Centro da Segunda linha -->
+
+        <ImageButton
+            android:id="@+id/home_btn_gplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_btn_face"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/h_gplus" />
+
+        <ImageButton
+            android:id="@+id/home_btn_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_btn_face"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/home_btn_gplus"
+            android:src="@drawable/h_site" />
+
+        <ImageView
+            android:id="@+id/home_linha2"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/home_btn_gplus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/home_txt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_linha2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="Acesse os canais Oficiais do cantor\ndiretamente dos Aplicativos, ou através do navegador." />
+
+        <TextView
+            android:id="@+id/home_filete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_txt_info"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</ScrollView>

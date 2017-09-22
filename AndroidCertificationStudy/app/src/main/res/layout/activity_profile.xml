@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_badge"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/loading"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loading"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/company_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loading"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/location_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_user"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loading"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/divider"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/location_user"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorPrimaryText"/>
+
+    <Button
+        android:id="@+id/repositories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawableStart="@drawable/ic_repo"
+        android:text="@string/repositories"
+        android:onClick="showRepositories"/>
+
+    <Button
+        android:id="@+id/followers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repositories"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawableStart="@drawable/ic_followers"
+        android:text="@string/followers"
+        android:onClick="showFollowers"/>
+
+    <Button
+        android:id="@+id/following"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/followers"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawableStart="@drawable/ic_following"
+        android:text="@string/following"
+        android:onClick="showFollowing"/>
+
+    <TextView
+        android:id="@+id/repositories_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/divider"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@id/user_avatar"
+        android:padding="4dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorAccentText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:background="@drawable/ic_badge"
+        android:visibility="visible"
+        android:elevation="6dp"/>
+
+    <TextView
+        android:id="@+id/followers_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/repositories"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@id/user_avatar"
+        android:padding="4dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorAccentText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:background="@drawable/ic_badge"
+        android:visibility="visible"
+        android:elevation="6dp"/>
+
+    <TextView
+        android:id="@+id/following_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/followers"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@id/user_avatar"
+        android:padding="4dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorAccentText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:background="@drawable/ic_badge"
+        android:visibility="visible"
+        android:elevation="6dp"/>
+
+</RelativeLayout>
